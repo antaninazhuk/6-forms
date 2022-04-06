@@ -1,0 +1,156 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: #f6f8fa;
+     padding-top: 50px;
+     font-family: 'Open Sans', sans-serif;
+     color: #000;
+ }
+ 
+ .container {
+     max-width: 560px;
+     margin: auto;
+ }
+ 
+ .registration {
+     max-width: 345px;
+     margin: auto;
+     padding-top: 40px;
+ }
+ 
+ h1 {
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 10px;
+     font-weight: bold;
+ }
+ 
+ .title {
+     text-align: center;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ 
+ .registration input {
+     width: 100%;
+     height: 42px;
+     font-size: 16px;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: solid 2px #e4e4e6;
+     border-radius: 3px;
+ }
+ 
+ .registration input::placeholder {}
+ 
+ .registration input:focus {
+     outline: none;
+ }
+ 
+ .registration input:focus::-webkit-input-placeholder {
+     color: #b9b9b9;
+ }
+ 
+ .birthday {
+     color: #aca6a6;
+     font-weight: 700;
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+     margin-bottom: 10px;
+ }
+ 
+ form button {
+     display: block;
+     margin-top: 30px;
+     width: 100%;
+     height: 42px;
+     font-size: 18px;
+     font-weight: bold;
+     padding: 10px;
+     border: none;
+     border-radius: 3px;
+     color: #fff;
+     background-color: #5fb251;
+     cursor: pointer;
+ }
+ 
+ .select1 {
+     width: 27%;
+     margin-right: 3%;
+ }
+ 
+ .select3 {
+     width: 27%;
+ }
+ 
+ .select2 {
+     width: 40%;
+     margin-right: 3%;
+ }
+ 
+ .select1,
+ .select2,
+ .select3 {
+     height: 42px;
+     font-size: 16px;
+     padding: 10px;
+     border: solid 2px #e4e4e6;
+     border-radius: 3px;
+     cursor: pointer;
+     appearance: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     background-image: url(../img/icon.png);
+     background-repeat: no-repeat;
+     background-position: 90%;
+     background-size: 14px;
+ }
+ 
+ .or {
+     color: #5c5858;
+     font-weight: 500;
+     font-size: 16px;
+     text-align: center;
+     margin: 20px 0;
+     vertical-align: middle;
+ }
+ 
+ .facebook {
+     width: 100%;
+     background-color: #3f66b6;
+     height: 42px;
+     display: block;
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bold;
+     padding: 10px;
+     cursor: pointer;
+     border: none;
+     border-radius: 3px;
+ }
+ 
+ .or::after {
+     content: "";
+     display: inline-block;
+     background-color: #d4d0d09a;
+     height: 2px;
+     width: 50px;
+     vertical-align: middle;
+     margin-left: 20px;
+ }
+ 
+ .or::before {
+     content: "";
+     display: inline-block;
+     background-color: #d4d0d09a;
+     height: 2px;
+     width: 50px;
+     vertical-align: middle;
+     margin-right: 20px;
+ }

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(148, 204, 204);
+}
+
+.search {
+    border: 2px solid rgb(90, 158, 235);
+    display: inline-block;
+    border-radius: 3px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(90, 158, 235);
+    background-image: url(../img/search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+input {
+    border: none;
+    vertical-align: middle;
+    height: 35px;
+    padding: 10px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(109, 108, 108);
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
